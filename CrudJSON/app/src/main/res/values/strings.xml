@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cari Candi</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="hello_world">Halo Android</string>
+    <string name="title_activity_detail_candi">DetailCandi</string>
+    <string name="title_activity_daftar_event">DaftarEventActivity</string>
+    <string name="title_activity_detail_event">DetailEventActivity</string>
+
+</resources>

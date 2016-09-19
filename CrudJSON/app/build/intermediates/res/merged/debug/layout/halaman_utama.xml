@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#faf8f8">
+     <!--  Halaman utama Dengan 2 button -->
+    <!--  Button untuk melihat semua anggota -->
+
+    <Button android:id="@+id/btnDaftarCandi"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:text="Daftar Candi"
+
+        android:layout_marginTop="90dip"
+        android:background="#f60202" />
+     <!--  Button untuk menambah Data anggota -->
+    <Button android:id="@+id/btnTambahEvent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tambah Event"
+        android:layout_marginTop="50dip"
+        android:background="#fb0404" />
+    <Button android:id="@+id/btnDaftarEvent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar Event"
+        android:layout_marginTop="50dip"
+        android:background="#fb0404" />
+    <Button android:id="@+id/btnExit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="50dip"
+        android:background="#fb0404" />
+ </LinearLayout>
